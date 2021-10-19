@@ -2,9 +2,8 @@ import socket
 
 # 创建套接字
 clientsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# host = socket.gethostname()
+host = socket.gethostname()
 # print('clienthost:',host)
-host ='42.193.123.102'
 port = 9999
 
 # 连接服务端
