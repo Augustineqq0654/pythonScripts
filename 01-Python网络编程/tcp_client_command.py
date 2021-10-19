@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding:utf8
 import socket
-HOST='42.193.123.102'
+HOST='服务器IP'
 PORT=9999
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)      #定义socket类型，网络通信，TCP
 s.connect((HOST,PORT))       #要连接的IP与端口
